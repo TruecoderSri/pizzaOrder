@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:ital@1&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Montserrat', sans-serif  !important;
+  -moz-osx-font-smoothing: grayscale;
+}
+ul{
+  margin-left: auto;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1{
+  font-size: 20px !important;
+}
+.flex-container{
+  display:flex !important;
+}
+.btn{
+  background-color: red !important;
+  color: black !important;
+  font-weight:bold !important;
+}
+.form-control{
+  box-shadow: none !important;
+  border-color: black !important;
+}
+.mt-1{
+  margin-right:5px !important; 
+  font-weight: bolder;
+}
+.dialog{
+  cursor: pointer;
+}
+.pizza-name{
+  font-family: 'Roboto', sans-serif;
+
+}
+.fa-plus{
+  color:green !important;
+  margin:5px;
+}
+.fa-minus{
+  color:red !important;
+  margin:5px;
+}
+.fa-trash{
+  color:black !important;
+
+}
+.checkOut{
+  background-color: red;
+color:white;
+padding:0.5rem;
+border:2 px solid black;
+border-radius: 10px;
+text-align: center;
+}
+
+
+
