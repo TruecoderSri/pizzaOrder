@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
-var mongoURL =
-  "mongodb+srv://pizzeria:27eb6K1Q4ljI9S0q@cluster0.hptzrhv.mongodb.net/mern-pizza";
+const mongoURL = process.env.MONGODB_URI;
 
 mongoose.connect(mongoURL, { useUnifiedTopology: true, useNewUrlParser: true });
 
