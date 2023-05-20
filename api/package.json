@@ -13,8 +13,7 @@
     "uuid": "^9.0.0"
   },
   "scripts": {
-  "build": "npm run build
- && node server.js"
+  "build": "node server.js"
 }
 
 }
