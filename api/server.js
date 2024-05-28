@@ -7,7 +7,11 @@ const db = require("./db.js");
 const PizzaRoute = require("./routes/pizzaRoutes");
 const orderRoute = require("./routes/orderRoute");
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: 'https://deli-y0ea.onrender.com', 
+  credentials: true,
+  optionsSuccessStatus: 200
+}));
 
 app.use("/api/pizzas", PizzaRoute);
 app.use("/api/orders", orderRoute);
