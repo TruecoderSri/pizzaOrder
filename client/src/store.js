@@ -1,27 +1,3 @@
-// import { combineReducers } from "redux";
-// import { configureStore, applyMiddleware } from "@reduxjs/toolkit";
-// import thunk from "redux-thunk";
-// import { composeWithDevTools } from "redux-devtools-extension";
-// // import { getAllPizzas } from "./actions/pizzaReducer";
-// import { cartReducer } from "./reducers/addToCart";
-// import { getAllPizzasReducer } from "./reducers/pizzaReducer";
-// const finalReducer = combineReducers({
-//   getAllPizzasReducer: getAllPizzasReducer,
-//   cartReducer: cartReducer,
-// });
-
-// const initialState = {};
-
-// const composeEnhancers = composeWithDevTools({});
-
-// const store = configureStore(
-//   finalReducer,
-//   initialState,
-//   composeEnhancers(applyMiddleware(thunk))
-// );
-
-// export default store;
-
 import { combineReducers } from "redux";
 import { configureStore, applyMiddleware } from "@reduxjs/toolkit";
 import thunk from "redux-thunk";
