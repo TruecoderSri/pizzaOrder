@@ -8,9 +8,10 @@ const PizzaRoute = require("./routes/pizzaRoutes");
 const orderRoute = require("./routes/orderRoute");
 app.use(express.json());
 app.use(cors({
-  origin: 'https://deli-y0ea.onrender.com', 
+  origin: '*', 
   credentials: true,
-  optionsSuccessStatus: 200
+  optionsSuccessStatus: 200,
+  allowHeaders:'*'
 }));
 
 app.use("/api/pizzas", PizzaRoute);
